@@ -1,5 +1,3 @@
-# restaurant-page
-
 # Restaurant Page
 
 ## Description
