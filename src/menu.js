@@ -31,8 +31,7 @@ export default function menuDisplay() {
     menuHeader.classList.add("menu-header");
     menuHeader.innerText = "WAFFLES & FRENCH TOAST";
     content.appendChild(title);
-    content.appendChild(menu);
-    content.appendChild(menuHeader);
+    menu.appendChild(menuHeader);
     for(let i = 0; i < 9; i++){
         const menuItem = document.createElement("div");
         menuItem.classList.add("menu-item");
@@ -48,7 +47,7 @@ export default function menuDisplay() {
         menuItem.appendChild(index);
         menuItem.appendChild(title);
         menuItem.appendChild(desc);
-        content.appendChild(menuItem);
+        menu.appendChild(menuItem);
     }
     const mode = document.createElement("p");
     mode.classList.add("mode");
@@ -56,6 +55,7 @@ export default function menuDisplay() {
     const phone = document.createElement("p");
     phone.classList.add("phone");
     phone.innerText = "321-546-8209";
+    content.appendChild(menu);
     content.appendChild(mode);
     content.appendChild(phone);
 }

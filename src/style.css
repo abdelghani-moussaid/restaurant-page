@@ -174,20 +174,26 @@ p.phone{
     color: #991b1b;
     padding: 20px 0;
     font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
-.menu-index, .menu-desc {
-    font-size: 1.2rem;
+.menu-index {
     padding-right: .3rem;
 }
 
 .menu-desc {
-    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.menu-item {
+    padding-bottom: 1.5rem;
+}
+.menu-item:last-child {
+    padding-bottom: 0;    
 }
 
 .menu-title {
     font-size: 1.8rem;
-    /* padding-top: .3rem; */
 }
 
 .menu-desc {
