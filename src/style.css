@@ -181,9 +181,13 @@ p.phone{
     padding-right: .3rem;
 }
 
+.menu-desc {
+    padding-bottom: 1rem;
+}
+
 .menu-title {
     font-size: 1.8rem;
-    padding-right: .3rem;
+    /* padding-top: .3rem; */
 }
 
 .menu-desc {
